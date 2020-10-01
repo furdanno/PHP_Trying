@@ -14,6 +14,3 @@ function getSameParity(array $numb)
         }
         return $res;
 }
-
-
-print_r(getSameParity([1,2,3]));
