@@ -11,7 +11,3 @@ function buildDefinitionList(array $strok)
     }
     return "<dl>{$res}</dl>";
 }
-$def=[    ['Блямба', 'Выпуклость, утолщения на поверхности чего-либо'],
-    ['Бобр', 'Животное из отряда грызунов']];
-
-print_r(buildDefinitionList($def));
