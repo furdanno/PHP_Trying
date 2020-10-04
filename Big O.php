@@ -1,10 +1,6 @@
 <?php
 function getIntersectionOfSortedArray(array $mas1,array $mas2)
 {
-    if ($mas1 === [] || $mas2 === []) {
-        $res = [];
-    }
-    else {
         $res = [];
         foreach ($mas1 as $chi1) {
             foreach ($mas2 as $chi2) {
@@ -13,7 +9,6 @@ function getIntersectionOfSortedArray(array $mas1,array $mas2)
                 }
             }
         }
-    }
     return $res;
 }
 
